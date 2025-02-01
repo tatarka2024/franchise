@@ -7,8 +7,8 @@ import { Providers } from "../../providers";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata = {
-  title: "Cyanidium Dev. Template",
-  description: "NextJS NextUI template",
+  title: "Татарка Франшиза",
+  description: "Fast food - fast money",
   icons: {
     icon: "/icons/favicon.ico",
   },
