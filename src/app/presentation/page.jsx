@@ -9,7 +9,7 @@ export default function Presentation() {
           <h3 className="font-michelin dark-txt-gradient text-lg l:text-[28px] mb-3">
             Дякуємо!
           </h3>
-          <p className="mb-5 text m-resp leading-[1.22]">
+          {/* <p className="mb-5 text m-resp leading-[1.22]">
             Посилання на{" "}
             <Link
               className="text-yellow font-bold font-michelin"
@@ -21,12 +21,16 @@ export default function Presentation() {
             >
               презентацію
             </Link>
-          </p>
+          </p> */}
           <Link
-            href="/"
-            className="bg-dark-to-yellow-grad text-white rounded-md font-michelin font-medium text-center py-2 px-4"
+            className="bg-dark-to-yellow-grad text-white rounded-md font-michelin font-medium mx-3 text-center py-2 px-4"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={
+              "https://drive.google.com/uc?export=download&id=1DWnbF86Pw1sOwmuVnA5lKX0shjCsZxDi"
+            }
           >
-            На головну
+            Скачати презентацію
           </Link>
         </div>
         <div className="w-full ">
