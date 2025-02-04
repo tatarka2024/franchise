@@ -6,7 +6,7 @@ export default function Presentation() {
     <div className="h-[70vh] flex justify-center items-center">
       <div className="w-[84.4%] max-w-[440px] rounded-md bg-white pt-[50px] sm:pt-10 flex flex-col justify-between h-[377px] gap-4 overflow-hidden">
         <div className="px-10 text-center">
-          <h3 className="font-michelin dark-txt-gradient text-lg l:text-[28px] mb-3">
+          <h3 className="font-michelin dark-txt-gradient text-lg l:text-[28px] mb-6">
             Дякуємо!
           </h3>
           {/* <p className="mb-5 text m-resp leading-[1.22]">
