@@ -30,7 +30,7 @@ export default function Presentation() {
               "https://drive.google.com/uc?export=download&id=1DWnbF86Pw1sOwmuVnA5lKX0shjCsZxDi"
             }
           >
-            Скачати <br/> презентацію
+            Презентація
           </Link>
         </div>
         <div className="w-full ">
