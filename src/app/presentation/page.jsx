@@ -23,14 +23,14 @@ export default function Presentation() {
             </Link>
           </p> */}
           <Link
-            className="bg-dark-to-yellow-grad text-white rounded-md font-michelin font-medium mx-3 text-center py-2 px-4"
+            className="bg-dark-to-yellow-grad text-white rounded-md font-michelin font-medium mx-6 text-center py-2 px-4"
             target="_blank"
             rel="noopener noreferrer"
             href={
               "https://drive.google.com/uc?export=download&id=1DWnbF86Pw1sOwmuVnA5lKX0shjCsZxDi"
             }
           >
-            Скачати презентацію
+            Скачати <br/> презентацію
           </Link>
         </div>
         <div className="w-full ">
