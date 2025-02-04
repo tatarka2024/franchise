@@ -23,7 +23,7 @@ export default function Presentation() {
             </Link>
           </p> */}
           <Link
-            className="bg-dark-to-yellow-grad text-white rounded-md font-michelin font-medium mx-6 text-center py-2 px-4"
+            className="bg-dark-to-yellow-grad text-white rounded-md font-michelin font-medium my-6 text-center py-2 px-4"
             target="_blank"
             rel="noopener noreferrer"
             href={
