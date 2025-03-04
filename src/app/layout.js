@@ -60,9 +60,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ua" className={`${raleway.className} ${michelin.className}`}>
       <head>
-        <GoogleTagManager gtmId="GTM-WDPXJDDS" />
+        <GoogleTagManager gtmId="GTM-N9HGZTT4" />
       </head>
       <body className="bg-zinc text-zinc">
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-N9HGZTT4"
+            height="0"
+            width="0"
+            style="display:none;visibility:hidden"
+          ></iframe>
+        </noscript>
+
         <Providers>
           <Header />
           <main>{children}</main>
