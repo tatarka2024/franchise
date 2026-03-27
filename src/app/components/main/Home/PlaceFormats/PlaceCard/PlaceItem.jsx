@@ -16,13 +16,13 @@ export default function PlaceItem({ img, title, details }) {
         </div>
         <Details details={details} />
       </div>
-      <div className="w-full rounded-md">
+      <div className="relative w-full aspect-[3/2] overflow-hidden rounded-md">
         <Image
           src={img}
           alt={title}
-          width={360}
-          height={168}
-          className="w-full h-auto"
+          fill
+          sizes="(max-width: 550px) 100vw, (max-width: 768px) 50vw, 33vw"
+          className="object-cover"
         />
       </div>
     </div>

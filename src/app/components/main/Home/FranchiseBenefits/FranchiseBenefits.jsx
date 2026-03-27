@@ -31,7 +31,7 @@ export default function FranchiseBenefits() {
           alt="інтерʼєр закладу Татарка"
           width={304}
           height={248}
-          className="w-full h-full object-cover rounded-md"
+          className="w-full h-full object-cover rounded-md object-top"
         />
       </div>
     </section>

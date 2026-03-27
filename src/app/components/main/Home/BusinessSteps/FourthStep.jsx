@@ -11,24 +11,24 @@ export default function FourthStep() {
           та придбання необхідного обладнання для повноцінного функціонування
           чебуречної.
         </p>
-        <div className="hidden sm:block sm:mt-[30px]">
+        <div className="relative hidden aspect-[455/102] w-full overflow-hidden rounded-md sm:mt-[30px] sm:block">
           <Image
             src="/images/fourth-step/img1.webp"
             alt="заклад Татарка"
-            width={455}
-            height={102}
-            className="w-full h-auto"
+            fill
+            sizes="(max-width: 660px) 100vw, 455px"
+            className="object-cover object-center"
           />
         </div>
       </div>
 
-      <div className="w-full sm:max-w-[57.6%] l:max-w-[57.6%] h-[166] xs:h-[280px] sm:h-[212px] overflow-hidden rounded-xl">
+      <div className="relative h-[166px] w-full overflow-hidden rounded-xl xs:h-[280px] sm:h-[212px] sm:max-w-[57.6%] l:max-w-[57.6%]">
         <Image
           src="/images/fourth-step/img2.webp"
           alt="заклад Татарка"
-          width={265}
-          height={245}
-          className="w-full h-full object-cover object-center rounded-xl"
+          fill
+          sizes="(max-width: 660px) 100vw, 400px"
+          className="object-cover object-center"
         />
       </div>
     </div>

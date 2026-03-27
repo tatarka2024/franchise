@@ -4,14 +4,14 @@ export default function ThirdStep() {
   return (
     <div className="flex flex-col sm:flex-row sm:gap-5 sm:items-start">
       <div className="sm:max-w-[42.6%]">
-        <div className="hidden sm:block sm:mb-[30px] ">
+        <div className="relative mb-0 hidden aspect-[455/98] w-full overflow-hidden rounded-md sm:mb-[30px] sm:block">
           <Image
             src="/images/third-step/img1.webp"
             alt="страва закладу Татарка"
-            width={455}
-            height={98}
+            fill
             priority
-            className="w-full h-auto"
+            sizes="(max-width: 660px) 100vw, 455px"
+            className="object-cover object-center"
           />
         </div>
         <h3 className="text-white font-michelin mb-3 sm-mb-[10px] text-lg">
@@ -33,13 +33,13 @@ export default function ThirdStep() {
           в якому враховуються особливості дизайну i внутрішнього оформлення
           чебуречної, планування простору та розміщення обладнання.
         </p>
-        <div className="w-full h-[158px] xs:h-[250px] sm:h-[158px] overflow-hidden rounded-xl">
+        <div className="relative h-[158px] w-full overflow-hidden rounded-xl xs:h-[250px] sm:h-[158px]">
           <Image
             src="/images/third-step/img2.webp"
             alt="працівник закладу Татарка демонструє меню"
-            width={265}
-            height={245}
-            className="w-full h-full object-cover object-center rounded-xl xs:object-[center_80%]"
+            fill
+            sizes="(max-width: 660px) 100vw, 400px"
+            className="object-cover object-center xs:object-[center_80%]"
           />
         </div>
       </div>
