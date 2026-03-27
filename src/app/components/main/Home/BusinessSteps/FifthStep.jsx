@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function FifthStep() {
   return (
-    <div className="flex flex-col sm:flex-row-reverse gap-6 sm:gap-5 md:items-end">
-      <div className="l:max-w-[40.6%]">
+    <div className="flex w-full min-w-0 flex-col sm:flex-row-reverse md:items-end gap-6 sm:gap-5">
+      <div className="w-full shrink-0 sm:max-w-[40.7%]">
         <h3 className="text-white font-michelin mb-3 sm-mb-[10px] text-lg">
           Проведення тренінгів
         </h3>
@@ -11,35 +11,28 @@ export default function FifthStep() {
           та практичних занять для персоналу з підготовки та обслуговування
           клієнтів
         </p>
-        <div className="hidden sm:block sm:mt-[30px]">
+        <div className="relative hidden aspect-[455/102] w-full overflow-hidden rounded-md sm:mt-[30px] sm:block">
           <Image
             src="/images/fifth-step/img1.webp"
             alt="інтерʼєр закладу Татарка"
-            width={455}
-            height={102}
+            fill
             priority
-            className="w-full h-auto"
+            sizes="(max-width: 660px) 100vw, 455px"
+            className="object-cover object-center"
           />
         </div>
       </div>
 
-      <div className="md:relative flex flex-col md:flex-row gap-6 sm:gap-5 sm:max-w-[45%] md:max-w-[57.6%]">
-        <Image
-          src="/icons/steps/arr-5.svg"
-          alt="іконка стрілки"
-          width={130}
-          height={128}
-          className="absolute hidden md:block  w-[226px] top-0 right-[54px] -translate-y-1/3 "
-        />
-        <div className=" md:max-w-[46%] lg:max-w-[55.8%]">
-          <div className="mb-6 sm:mb-5 w-full h-[156px] xs:h-[250px] sm:h-[112px] l:h-[156px] overflow-hidden rounded-xl">
+      <div className="flex min-w-0 w-full flex-col gap-6 sm:gap-5 sm:max-w-[57.6%] md:relative md:flex-row">
+        <div className="min-w-0 md:max-w-[46%] lg:max-w-[55.8%]">
+          <div className="relative mb-6 h-[156px] w-full overflow-hidden rounded-xl xs:h-[250px] sm:mb-5 sm:h-[112px] l:h-[156px]">
             <Image
               src="/images/fifth-step/img3.webp"
               alt="персонал закладу Татарка"
-              width={360}
-              height={138}
+              fill
               priority
-              className="w-full h-full object-cover object-top rounded-xl"
+              sizes="(max-width: 768px) 100vw, 360px"
+              className="object-cover object-top"
             />
           </div>
           <p className="text-white text-m-resp leading-[1.22]">
@@ -47,14 +40,14 @@ export default function FifthStep() {
           </p>
         </div>
 
-        <div className="w-full h-[212px] xs:h-[340px] sm:h-[120px] md:h-[212px] l:max-w-[41.1%] overflow-hidden rounded-xl">
+        <div className="relative h-[212px] w-full min-w-0 overflow-hidden rounded-xl xs:h-[340px] sm:h-[120px] md:h-[212px] l:max-w-[41.1%]">
           <Image
             src="/images/fifth-step/img2.webp"
             alt="заклад Татарка"
-            width={265}
-            height={245}
+            fill
             priority
-            className="w-full h-full object-cover object-center rounded-xl"
+            sizes="(max-width: 768px) 100vw, 280px"
+            className="object-cover object-center"
           />
         </div>
       </div>

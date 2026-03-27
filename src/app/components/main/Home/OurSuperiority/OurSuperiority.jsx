@@ -16,8 +16,8 @@ export default function OurSuperiority() {
           variants={titleAnimation}
           className="text-white font-michelin text-center text-[20px] xs:text-4xl font-bold mb-8"
         >
-          Чому конкуренти
-          <br /> бояться нас?
+          Чому варто
+          <br /> співпрацювати з нами?
         </motion.h2>
         <ul className="flex flex-col sm:flex-row flex-wrap gap-8 sm:gap-5 sm:justify-center">
           {data.map(({ title, txt, img }, index) => (

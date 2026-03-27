@@ -24,9 +24,9 @@ export default function ProductsList() {
               className="w-full h-full object-cover rounded-md"
             />
           </div>
-          <div className="bg-white rounded-t-xl rounded-b-md p-[18px] md:p-2 l:p-[18px] mt-[-16px] relative z-[1]">
+          <div className="bg-white rounded-t-xl rounded-b-md p-[18px] md:p-2 l:p-[18px] mt-[-16px] relative z-[1] pb-[30px]">
             <h3
-              className="mb-1 font-michelin text-black text-[16px] md:text-[14px] l:text-[16px] leading-[1.22] font-bold"
+              className="mb-1 font-michelin text-black text-[16px] md:text-[14px] l:text-[22px] leading-[1.22] font-bold"
               dangerouslySetInnerHTML={{ __html: title }}
             />
 

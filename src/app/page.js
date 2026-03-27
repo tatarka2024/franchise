@@ -43,7 +43,7 @@ export default function Home() {
       <WhyUs />
       <FranchiseBenefits />
       <OurProducts />
-      <Format />
+      {/* <Format /> */}
       <FeedBackComponent />
       <PlaceFormats />
       <BusinessSteps />

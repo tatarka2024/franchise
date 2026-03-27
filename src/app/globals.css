@@ -39,14 +39,14 @@ a {
 }
 
 .firsFormBg {
-  background: url(/images/form/bg1-mob.webp);
+  background: url(/images/form/bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: auto;
 
   @media (min-width: 989px) {
-    background: url(/images/form/bg1-desk.webp);
+    background: url(/images/form/bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -54,14 +54,12 @@ a {
 }
 
 .secondFormBg {
-  background: url(/images/form/bg2.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/images/form/bg2.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: auto;
-
-  @media (min-width: 989px) {
-  }
 }
 
 .customInput {
